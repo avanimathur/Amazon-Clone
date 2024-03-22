@@ -329,19 +329,6 @@ height: 6rem;
     font-weight: bold;
 }
 
-.to-top {
-    color: #fff;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.4s;
-    margin-left: 0.5rem;
-}
-.to-top.active {
-    pointer-events: auto;
-    opacity: 1;
-}
-
-
 .footer{
     width: 100vw;
     background-color: #232F3E;
@@ -358,14 +345,17 @@ height: 6rem;
 }
 .footer-head{
     font-size: 1rem;
+    font-size: large;
 }
 .list-footer{
     list-style: none;
     margin-left: -2.5rem;
+    font-size: medium;
 }
 .list-footer li{
     font-size: 0.8rem;
     margin-top: 0.6rem;
+    font-size: medium;
 }
 .amazon-logo{
     display: inline-block;
@@ -374,4 +364,14 @@ height: 6rem;
 .amazon-logo:hover{
     outline: 0.5px solid white; 
     outline-offset: -2px; 
+}
+
+.social-media,.about{
+    color:#fff;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.social-media:hover , .about:hover{
+    text-decoration-line: underline;
 }
