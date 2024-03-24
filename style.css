@@ -64,7 +64,10 @@ html, body{
     margin-left:-0.3rem ;
     margin-bottom: -4rem;
 }
-
+.search-icon:hover{
+    filter: brightness(90%);
+  
+}
 .language{
     display: inline-block;
     margin-left: 1.5rem;
